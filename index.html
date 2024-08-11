@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="left" action="https://api.web3forms.com/submit" method="post">
+        <div class="title-left">
+          <img src="images\arrow.jpeg" alt="">
+          <h2>Drop us a line</h2>
+        </div>
+        <input type="hidden" name="access_key" value="54a55eee-292f-49c8-8791-4eec4678bea2">
+        <input type="text" name="name" placeholder="Your Name Here!!" class="inputs" required>
+        <input type="email" name="email" placeholder="Enter Email Address" class="inputs" required>
+        <textarea name="query" placeholder="Your Query/Suggestions Here..." rows="8" cols="80" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="right">
+        <img src="images\query2.jpg" alt="">
+      </div>
+    </div>
+  </body>
+</html>
